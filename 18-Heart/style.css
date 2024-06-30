@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    position: relative;
+}
+.fa-heart{
+    color: red;
+    font-size: 40px;
+    position: absolute;
+    /* top: 100px;
+    left: 100px; */
+}

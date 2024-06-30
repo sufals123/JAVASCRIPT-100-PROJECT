@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 94%);
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.coin-value {
+    height: 50px;
+    width: 120px;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(2, 7, 61);
+    color: white;
+    text-align: center;
+    margin: 20px auto; 
+}
+
+.usdt-container {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.usdt-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.buy, .sell {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buy {
+    background-color: green;
+    color: white;
+}
+
+.sell {
+    background-color: red;
+    color: white;
+}
+
+.tradingview-widget-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}

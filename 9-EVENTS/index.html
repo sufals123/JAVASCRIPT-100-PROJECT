@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Start inline Event -->
+    <h1>INLINE EVENT</h1>
+    <div class="container">
+        <button onclick="alert('welcome')">greeting</button>
+        <button ondblclick="alert('welcome')">greeting again</button>
+        <button onmouseover="alert('welcome again')">greeting again</button>
+    </div>
+    <!-- End inline Event -->
+
+    <!--Start DOM Event handler -->
+    <h1>DOM EVENT HANDLER</h1>
+    <div class="container">
+        <button id="myBtn">greeting</button>
+        <button id="myBtn1">greeting again</button>
+    </div>
+    <!--Start addEVENTListener Event handler -->
+    <h1>addEventListener EVENT HANDLER</h1>
+    <div class="container">
+        <button id="myBtn2">greeting</button>
+        <button id="myBtn3">greeting again</button>
+    </div>
+    <!--END addEVENTListener Event handler -->
+
+    <section>
+        <div class="rectangle">
+            <button id="myButton">CLICK ME</button>
+        </div>
+    </section>
+    
+    
+   <div class="code">
+    <input type="text" id="myInput" placeholder="Type something....">
+    <div class="outPut">
+        <p class="keyPressed">Key pressed:</p>
+        <p class="keyCode">key code:</p>
+        <p class="charCode">Char codeAt:</p>
+        <p class="eventType">Event type:</p>
+   </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#myList{
+    background-color:yellow;
+    width: 200px;
+    height: 200px;
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+#JavaScript{
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#React{
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Next{
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#HTML{
+    width: 200px;
+    height: 50px;
+    border: 1px solid black; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#listValue{
+    color: white;
+}

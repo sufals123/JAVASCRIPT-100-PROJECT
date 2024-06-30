@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTC/USDT Price and Chart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container"> 
+        <input class="coin-value" type="number" readonly value="25" />
+        <p>After Two minutes BTC price is <span id="prediction">loading...</span></p>
+        <div class="usdt-container">
+            <img class="usdt-img" src="img/usdt.png" alt="USDT">
+        </div>
+        <div class="buy">
+            <span>Buy</span>
+        </div>
+        <div class="sell">
+            <span>Sell</span>
+        </div>
+    </div>
+
+    <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <div class="tradingview-widget-copyright">
+            <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"></a>
+        </div>
+    </div>
+
+    <h1>BTC/USDT Current Price: <span id="btcPrice">Loading...</span></h1>
+
+    <script src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+    {
+        "width": "980",
+        "height": "610",
+        "symbol": "BINANCE:BTCUSDT",
+        "interval": "D",
+        "timezone": "Etc/UTC",
+        "theme": "light",
+        "style": "1",
+        "locale": "en",
+        "allow_symbol_change": true,
+        "calendar": false,
+        "support_host": "https://www.tradingview.com"
+    }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>

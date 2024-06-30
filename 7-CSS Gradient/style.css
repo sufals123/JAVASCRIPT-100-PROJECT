@@ -1,0 +1,47 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(to right top,#051937,#004d7a,#008793,#00bf72,#a8eb12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem;
+}
+section h2{
+    color: white;
+    text-align: center;
+}
+#myButton{
+    background-color: rgb(12, 12, 14);
+    color: rgb(34, 34,34);
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px black;
+    color: white;
+}
+#myButton2{
+    background-color: rgb(168,235, 18);
+    color: rgb(34, 34,34);
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px black;
+}
+.copyCode{
+    width: 300px;
+    color: white;
+    margin-left: 30%;
+    display: flex;
+    box-shadow: 1px 1px 10px white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
