@@ -8,4 +8,10 @@ const sumOfDigits = (num)=>{
     return sum;
 }
 
+
+// const sumOfDigits = (value)=>{
+//     return value.toString().split('').reduce((acc, val) => acc + parseInt(val), 0);
+ 
+// }
+
 console.log(sumOfDigits(12345));
